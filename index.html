@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e8">
+  <meta name="description" content="A small, wildly unrelated collection of design, objects, characters and ideas." />
+  <title>No Particular Order — a visual miscellany</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement-bar">
+    <span>FIELD NOTES FROM THE INTERNET</span>
+    <span class="announcement-center">VOL. 001 <i>✳</i> UNRELATED, NOT UNIMPORTANT</span>
+    <span>EST. NEVER</span>
+  </div>
+
+  <header class="site-header wrap">
+    <a class="wordmark" href="#top" aria-label="No Particular Order home">
+      <span class="wordmark-icon">N<span>/</span>P</span>
+      <span class="wordmark-name">NO PARTICULAR<br>ORDER</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#collection">The collection <span>10</span></a>
+      <a href="#about">The idea</a>
+    </nav>
+    <button class="shuffle-button" id="shuffleButton" type="button">
+      <span class="shuffle-symbol">⤨</span> Shuffle the chaos
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> AN EXERCISE IN HAPPY ACCIDENTS</div>
+        <h1 id="hero-title">A little of<br>this. <span>Absolutely</span><br><em>no sense.</em></h1>
+        <p class="hero-description">A tiny archive of objects, ideas, odd little characters, and things that looked good next to each other.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#collection">Explore the collection <span>↘</span></a>
+          <span class="hero-aside">No theme. No rules.<br>Just follow the thread.</span>
+        </div>
+        <div class="hero-footnote"><span>001—010</span><span>SCROLL TO MAKE IT MAKE SENSE</span><span>↓</span></div>
+      </div>
+
+      <div class="hero-art" aria-label="A collage of the collection's images">
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+        <div class="hero-main-card">
+          <img src="assets/images/01-auralink-headphones.jpg" alt="Auralink wireless headphones landing page concept">
+          <div class="hero-main-caption"><span>01 / SOUND STUDY</span><span>↗</span></div>
+        </div>
+        <div class="hero-doodle-card">
+          <img src="assets/images/02-confetti-character.jpg" alt="A hand-drawn character celebrating under confetti">
+          <span>GOOD MOOD DEPARTMENT</span>
+        </div>
+        <div class="hero-sticker">A VERY<br>LOOSE<br>CONNECTION <b>✳</b></div>
+        <div class="hero-number">01<span>—</span>10</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Good design, questionable connections">
+      <div class="ticker-track">
+        <span>GOOD DESIGN</span><b>✳</b><span>QUESTIONABLE CONNECTIONS</span><b>✳</b><span>UNRELATED, NOT UNIMPORTANT</span><b>✳</b><span>GOOD DESIGN</span><b>✳</b><span>QUESTIONABLE CONNECTIONS</span><b>✳</b><span>UNRELATED, NOT UNIMPORTANT</span><b>✳</b>
+      </div>
+    </div>
+
+    <section class="collection-section wrap" id="collection" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-dot"></span> THE BIG, BEAUTIFUL MIX-UP</div>
+          <h2 id="collection-title">The unconnected<br><em>collection.</em></h2>
+        </div>
+        <div class="section-intro">
+          <p>Ten images walked into a website. We didn't ask them to explain themselves.</p>
+          <span class="hand-note">Take your time. Or don't. ↙</span>
+        </div>
+      </div>
+
+      <div class="collection-tools">
+        <div class="filter-list" role="group" aria-label="Filter collection">
+          <button class="filter-chip is-active" data-filter="all" type="button">Everything <span>10</span></button>
+          <button class="filter-chip" data-filter="objects" type="button">Objects <span>2</span></button>
+          <button class="filter-chip" data-filter="characters" type="button">Characters <span>3</span></button>
+          <button class="filter-chip" data-filter="posters" type="button">Posters <span>4</span></button>
+          <button class="filter-chip" data-filter="web" type="button">Web things <span>1</span></button>
+        </div>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Find something…" aria-label="Search the collection">
+        </label>
+      </div>
+
+      <div class="results-line"><span id="resultCount">10 THINGS, IN NO PARTICULAR ORDER</span><span>SELECT A CARD TO TAKE A CLOSER LOOK ↗</span></div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="art-card card-a" type="button"
+          data-category="objects" data-title="Sound, beyond limits" data-label="OBJECT / 01"
+          data-description="Auralink's quiet promise: make the workday sound like a better place to be. A product page with a soft spot for good typography and even softer ear cushions."
+          data-image="assets/images/01-auralink-headphones.jpg" data-fit="cover">
+          <span class="card-media media-a"><img src="assets/images/01-auralink-headphones.jpg" alt="Auralink wireless headphones website concept"></span>
+          <span class="card-caption"><span><small>OBJECT / 01</small><strong>Sound, beyond limits</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-b" type="button"
+          data-category="characters" data-title="Confetti for absolutely no reason" data-label="CHARACTER / 02"
+          data-description="A tiny reminder that celebration does not need a calendar invite. This character has excellent priorities."
+          data-image="assets/images/02-confetti-character.jpg" data-fit="contain">
+          <span class="card-media media-b"><img src="assets/images/02-confetti-character.jpg" alt="A joyful hand-drawn character with raised arms and confetti"></span>
+          <span class="card-caption"><span><small>CHARACTER / 02</small><strong>Confetti for no reason</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-c" type="button"
+          data-category="characters" data-title="The calmest questionable decision" data-label="CHARACTER / 03"
+          data-description="A very composed doodle with a very dramatic accessory. We are choosing not to ask follow-up questions."
+          data-image="assets/images/03-nightcap-doodle.jpg" data-fit="contain">
+          <span class="card-media media-c"><img src="assets/images/03-nightcap-doodle.jpg" alt="A minimalist hand-drawn character holding a wine glass"></span>
+          <span class="card-caption"><span><small>CHARACTER / 03</small><strong>The calmest bad idea</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-d" type="button"
+          data-category="characters" data-title="A bird with plans" data-label="CHARACTER / 04"
+          data-description="A party hat, two tiny feet, and the unmistakable energy of someone who has somewhere to be."
+          data-image="assets/images/04-party-bird.jpg" data-fit="contain">
+          <span class="card-media media-d"><img src="assets/images/04-party-bird.jpg" alt="A small hand-drawn bird wearing a striped party hat"></span>
+          <span class="card-caption"><span><small>CHARACTER / 04</small><strong>A bird with plans</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-e" type="button"
+          data-category="posters" data-title="Concrete, with a little theatre" data-label="POSTER / 05"
+          data-description="A study of architecture, strong geometry and bright red-orange arches. Serious building. Impossibly good drama."
+          data-image="assets/images/05-cooperative-architecture.jpg" data-fit="cover">
+          <span class="card-media media-e"><img src="assets/images/05-cooperative-architecture.jpg" alt="Architecture poster with red arches over a black and white office building"></span>
+          <span class="card-caption"><span><small>POSTER / 05</small><strong>Concrete, with a little theatre</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-f" type="button"
+          data-category="posters" data-title="The 60—30—10 reminder" data-label="POSTER / 06"
+          data-description="A bright blue design explainer about the 60–30–10 colour rule. A useful reminder that harmony is often just good proportions."
+          data-image="assets/images/06-color-rule-poster.jpg" data-fit="cover">
+          <span class="card-media media-f"><img src="assets/images/06-color-rule-poster.jpg" alt="Blue graphic design poster explaining the 60-30-10 colour rule"></span>
+          <span class="card-caption"><span><small>POSTER / 06</small><strong>The 60—30—10 reminder</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-g" type="button"
+          data-category="posters" data-title="Trust travels in pairs" data-label="POSTER / 07"
+          data-description="Two trucks, one shared road, and a very good visual metaphor for showing up when it matters. A logistics poster with a human point of view."
+          data-image="assets/images/07-trust-logistics-poster.jpg" data-fit="cover">
+          <span class="card-media media-g"><img src="assets/images/07-trust-logistics-poster.jpg" alt="Trust-themed logistics poster showing two trucks side by side"></span>
+          <span class="card-caption"><span><small>POSTER / 07</small><strong>Trust travels in pairs</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-h" type="button"
+          data-category="objects" data-title="A small mountain of maybe" data-label="STILL LIFE / 08"
+          data-description="A stack of cash, a few coins and a glass catching the light. The mood is somewhere between payday and a very long conversation."
+          data-image="assets/images/08-money-still-life.jpg" data-fit="cover">
+          <span class="card-media media-h"><img src="assets/images/08-money-still-life.jpg" alt="Stacks of banknotes and coins on a wooden table"></span>
+          <span class="card-caption"><span><small>STILL LIFE / 08</small><strong>A small mountain of maybe</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-i" type="button"
+          data-category="posters" data-title="A court of colour" data-label="POSTER / 09"
+          data-description="The French Open, translated into bold colour blocks, a tiny player and a tennis ball that has absolutely no business being that large."
+          data-image="assets/images/09-french-open-poster.jpg" data-fit="cover">
+          <span class="card-media media-i"><img src="assets/images/09-french-open-poster.jpg" alt="Colourful French Open tennis poster illustration"></span>
+          <span class="card-caption"><span><small>POSTER / 09</small><strong>A court of colour</strong></span><i>↗</i></span>
+        </button>
+
+        <button class="art-card card-j" type="button"
+          data-category="web" data-title="Electova / the gadget department" data-label="WEB THING / 10"
+          data-description="A clean storefront concept where phones, watches, headphones and consoles all get their moment. The final tab in this very strange browser session."
+          data-image="assets/images/10-electova-storefront.jpg" data-fit="cover">
+          <span class="card-media media-j"><img src="assets/images/10-electova-storefront.jpg" alt="Electova electronics ecommerce website concept"></span>
+          <span class="card-caption"><span><small>WEB THING / 10</small><strong>Electova / the gadget department</strong></span><i>↗</i></span>
+        </button>
+      </div>
+      <div class="empty-state" id="emptyState" hidden>
+        <span>¯\_(ツ)_/¯</span>
+        <strong>Nothing in this corner of the universe.</strong>
+        <p>Try another word or let everything back in.</p>
+        <button id="resetFilters" type="button">Show me everything</button>
+      </div>
+    </section>
+
+    <section class="about-band" id="about">
+      <div class="about-inner wrap">
+        <div class="about-mark">N<span>/</span>P</div>
+        <div class="about-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> A NOTE FROM THE CURATOR</div>
+          <h2>Not everything<br>needs to <em>fit.</em></h2>
+          <p>This is a little space for good visuals, weird combinations and happy accidents. Some things are useful. Some things are just here because they made us stop scrolling.</p>
+        </div>
+        <div class="about-side-note"><span>THE ONLY RULE</span><strong>Keep<br>looking.</strong><b>↗</b></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <a class="footer-top" href="#top">BACK TO THE TOP ↑</a>
+    <div class="footer-bottom"><span>NO PARTICULAR ORDER © 2026</span><span>MADE OF TEN IMAGES & A LITTLE CURIOSITY</span><span>THAT'S ENOUGH.</span></div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightboxTitle">
+    <div class="lightbox-shell">
+      <button class="lightbox-close" id="closeLightbox" type="button" aria-label="Close image viewer">×</button>
+      <div class="lightbox-image-wrap"><img id="lightboxImage" src="" alt=""></div>
+      <div class="lightbox-info">
+        <div><span class="lightbox-label" id="lightboxLabel"></span><h2 id="lightboxTitle"></h2><p id="lightboxDescription"></p></div>
+        <div class="lightbox-controls"><button id="previousCard" type="button" aria-label="Previous image">←</button><button id="nextCard" type="button" aria-label="Next image">→</button></div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
